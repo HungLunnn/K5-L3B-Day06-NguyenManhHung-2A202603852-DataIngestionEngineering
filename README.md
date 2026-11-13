@@ -8,6 +8,53 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 |---|---|---|
 | Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
 
+## 0. Setup và chạy nhanh
+
+```bash
+# Từ thư mục gốc của repo
+cd starter
+
+# Tạo và kích hoạt môi trường ảo
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# Cài dependency
+python -m pip install -r requirements.txt
+
+# Sao chép file env và cấu hình DB/API
+Copy-Item .env.example .env
+# hoặc: cp .env.example .env trên macOS/Linux
+
+# Khởi động PostgreSQL + pgvector local
+docker compose -p day6_student_starter up -d --wait
+
+# Kiểm tra DB
+python scripts/check_setup.py
+```
+
+Ví dụ `.env` tối thiểu cho OpenAI-compatible API qua Shopaikey:
+
+```env
+DATABASE_URL=postgresql://day6:day6_local_only@127.0.0.1:55433/day6_lab
+PROVIDER=openai
+OPENAI_BASE_URL=https://api.shopaikey.com/v1
+OPENAI_API_KEY=YOUR_REAL_KEY
+EMBEDDING_MODEL=text-embedding-3-small
+MODEL=gpt-4o-mini
+```
+
+Sau khi setup xong, chạy pipeline:
+
+```bash
+cd starter
+.\.venv\Scripts\Activate.ps1
+python -m src.run
+```
+
+Lưu ý:
+- `python scripts/check_setup.py` phải in ra `Database: ... | PostgreSQL: ... | pgvector: ...` và `Setup OK` trước khi đánh giá benchmark.
+- Nếu file `.env` chưa có key hợp lệ, `python -m src.run` sẽ fail ở phase embedding vì model API chưa được cấu hình đúng.
+
 ## Bắt đầu nhanh
 
 Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.

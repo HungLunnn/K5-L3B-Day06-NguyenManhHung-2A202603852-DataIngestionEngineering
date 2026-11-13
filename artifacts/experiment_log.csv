@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A_fixed,fixed_size,500,80,"document_id,source,page,section,year","none","text-embedding-3-small via Shopaikey","Chunk kích thước cố định đủ cho ngữ cảnh ngắn nhưng thiếu metadata filter",6,12,3,4,"Hit@1 thấp vì nhiều câu hỏi có cùng keyword trên các section khác nhau"
+B_paragraph,by_paragraph,400,0,"document_id,source,page,section,year","none","text-embedding-3-small via Shopaikey","Chunk theo đoạn giữ ngữ cảnh tốt hơn fixed-size nhưng vẫn thiếu filter",6,12,3,4,"Tăng độ đọc hiểu nhưng không cải thiện khi metadata không dùng"
+C_paragraph_filter,by_paragraph,400,0,"document_id,source,page,section,year","section","text-embedding-3-small via Shopaikey","Filter metadata theo section làm cải thiện mạnh trong câu hỏi có ngữ cảnh rõ",12,15,5,5,"Kết quả tốt nhất, chứng tỏ metadata filter quan trọng hơn chunking đơn thuần"
