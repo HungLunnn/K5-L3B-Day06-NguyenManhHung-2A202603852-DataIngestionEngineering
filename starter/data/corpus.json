@@ -1,0 +1,162 @@
+{
+  "document_id": "student_handbook_2025",
+  "title": "Student Handbook 2025",
+  "source": "Synthetic public demo corpus for Day06 lab",
+  "license_or_permission": "Public demo content created for educational benchmarking; not a real institution record.",
+  "accessed_at": "2026-11-13",
+  "year": 2025,
+  "page_count": 30,
+  "language": "vi",
+  "pages": [
+    {
+      "page": 1,
+      "section": "cover",
+      "text": "Student Handbook 2025. This sample corpus is a synthetic public document created for retrieval benchmarking. The handbook provides orientation information, policies, academic requirements, scholarships, housing, and student services for the 2025 academic year."
+    },
+    {
+      "page": 2,
+      "section": "overview",
+      "text": "The university serves undergraduate and postgraduate students. Enrollment begins in August each year. Students are expected to follow academic integrity rules, maintain attendance, and complete all required modules before graduation."
+    },
+    {
+      "page": 3,
+      "section": "admission",
+      "text": "Admissions deadlines are published annually. Regular intake applicants must submit the application by 30 June 2025. International applicants must also submit visa eligibility documents and proof of English proficiency before the final review date."
+    },
+    {
+      "page": 4,
+      "section": "admission",
+      "text": "Applicants with prior study records may request credit transfer. Credits can be reviewed only if the previous course is equivalent to the current curriculum and the transcript is submitted before 15 July 2025."
+    },
+    {
+      "page": 5,
+      "section": "orientation",
+      "text": "New students attend orientation in the first week of September. Mandatory sessions include campus safety, academic advising, library services, and digital systems. Students who miss orientation may need to complete a make-up session before course registration."
+    },
+    {
+      "page": 6,
+      "section": "registration",
+      "text": "Course registration is completed online through the student portal. Students can adjust class enrollments until the end of the add-drop week. Courses under the same semester must not conflict in timing or assessment schedule."
+    },
+    {
+      "page": 7,
+      "section": "registration",
+      "text": "Students must register for at least 12 credits per semester to remain in full-time status. Students taking fewer than 12 credits may be classified as part-time, affecting tuition billing and financial aid eligibility."
+    },
+    {
+      "page": 8,
+      "section": "academic_rules",
+      "text": "Academic integrity violations include plagiarism, cheating during examinations, and unauthorized collaboration. The first offense can trigger a warning and zero marks for the assignment. Repeated violations can lead to suspension."
+    },
+    {
+      "page": 9,
+      "section": "academic_rules",
+      "text": "Students must maintain a cumulative GPA of at least 2.0 to remain in good standing. A GPA below 2.0 for two consecutive semesters may require academic probation and a study plan approved by the faculty."
+    },
+    {
+      "page": 10,
+      "section": "grading",
+      "text": "Final grades are based on examinations, projects, and participation. The assessment mix varies by course, but all courses publish the grading rubric at the start of the semester. Re-mark requests must be submitted within ten working days."
+    },
+    {
+      "page": 11,
+      "section": "tuition",
+      "text": "The first semester tuition fee is 18,500,000 VND for standard undergraduate programs. Payment can be made in one installment or in two installments with the second payment due before the final exam period."
+    },
+    {
+      "page": 12,
+      "section": "tuition",
+      "text": "Late payment may result in blocked access to the portal, exam registration restrictions, and temporary suspension of course attendance. Students with financial hardship may request consultation before the payment deadline."
+    },
+    {
+      "page": 13,
+      "section": "scholarship",
+      "text": "Merit scholarships are awarded to students with a semester GPA above 3.6 and no academic violations. Scholarship recipients must maintain a minimum GPA of 3.5 to renew their award each semester."
+    },
+    {
+      "page": 14,
+      "section": "scholarship",
+      "text": "Need-based scholarships are available for students with verified family income below the government threshold. Applicants must submit household records and a statement of financial need before the scholarship review deadline."
+    },
+    {
+      "page": 15,
+      "section": "scholarship",
+      "text": "Students receiving a scholarship are exempt from tuition fees only if they remain in good academic standing. Students with a GPA below 3.0 may be placed on conditional status and lose the tuition waiver."
+    },
+    {
+      "page": 16,
+      "section": "student_support",
+      "text": "The Academic Counselling Center provides mentoring, time management coaching, and case management for students facing academic stress. Appointments can be scheduled online or through faculty advisors."
+    },
+    {
+      "page": 17,
+      "section": "student_support",
+      "text": "Students can access medical services, psychological support, and career guidance at the Student Wellness Office. The office remains open during the semester and offers emergency support when needed."
+    },
+    {
+      "page": 18,
+      "section": "language",
+      "text": "All students must submit evidence of English proficiency before graduation. The minimum threshold is a TOEIC score of 600 or an equivalent IELTS band score of 5.5, unless the student is exempt through an approved prior program."
+    },
+    {
+      "page": 19,
+      "section": "language",
+      "text": "Students who fail the language proficiency requirement may enroll in a one-semester preparatory course. The course does not award degree credit but allows students to retake the assessment before the next graduation review."
+    },
+    {
+      "page": 20,
+      "section": "internship",
+      "text": "Graduation requirements include a minimum of 180 internship hours for applied majors. Students may complete work placement through university partners or supervised external organizations approved by the faculty."
+    },
+    {
+      "page": 21,
+      "section": "internship",
+      "text": "Internship students must maintain a weekly logbook and submit a final reflection report. The internship advisor evaluates the document and the employer evaluation before approving completion."
+    },
+    {
+      "page": 22,
+      "section": "housing",
+      "text": "On-campus housing is limited and assigned based on year of study, distance, and financial need. Priority is given to first-year students and students from outside the city."
+    },
+    {
+      "page": 23,
+      "section": "housing",
+      "text": "Students living in dormitories must comply with curfew rules and room inspection policies. Violations involving smoking, unsafe electrical devices, or unauthorized visitors may result in a warning or eviction."
+    },
+    {
+      "page": 24,
+      "section": "discipline",
+      "text": "Student disciplinary rules apply to harassment, vandalism, theft, and serious misconduct. Depending on severity, the university may issue warnings, corrective actions, or formal disciplinary hearing procedures."
+    },
+    {
+      "page": 25,
+      "section": "discipline",
+      "text": "Students have the right to appeal disciplinary decisions within fifteen working days. Appeals must include evidence, the relevant policy section, and a written explanation of why the decision should be reviewed."
+    },
+    {
+      "page": 26,
+      "section": "graduation",
+      "text": "To graduate, students must complete all required credits, fulfill the internship requirement, and pass the final project or capstone assessment. Students with incompletes may not receive degree conferral until the missing work is completed."
+    },
+    {
+      "page": 27,
+      "section": "graduation",
+      "text": "The graduation audit checks official transcripts, final GPA, language proficiency, and outstanding fees. Any unresolved issue must be cleared before the student can attend the commencement ceremony."
+    },
+    {
+      "page": 28,
+      "section": "technology",
+      "text": "Students are assigned a university email and portal account upon enrollment. Multi-factor authentication is required for access to academic records and internal systems."
+    },
+    {
+      "page": 29,
+      "section": "technology",
+      "text": "The library system provides digital journals, databases, and citation tools. Students can access these services through campus Wi-Fi or a VPN proxy authorized by the university information office."
+    },
+    {
+      "page": 30,
+      "section": "appendix",
+      "text": "Appendix: Quick reference guide. Students should confirm academic dates in the official calendar, contact faculty advisors for questions, and read updates posted in the student portal at the start of each semester."
+    }
+  ]
+}

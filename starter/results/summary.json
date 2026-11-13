@@ -1,0 +1,44 @@
+{
+  "A_fixed:dev": {
+    "count": 15,
+    "hit_at_1": 6,
+    "hit_at_1_rate": 0.4,
+    "evidence_hit_at_3": 12,
+    "evidence_hit_at_3_rate": 0.8
+  },
+  "A_fixed:test": {
+    "count": 5,
+    "hit_at_1": 3,
+    "hit_at_1_rate": 0.6,
+    "evidence_hit_at_3": 4,
+    "evidence_hit_at_3_rate": 0.8
+  },
+  "B_paragraph:dev": {
+    "count": 15,
+    "hit_at_1": 6,
+    "hit_at_1_rate": 0.4,
+    "evidence_hit_at_3": 12,
+    "evidence_hit_at_3_rate": 0.8
+  },
+  "B_paragraph:test": {
+    "count": 5,
+    "hit_at_1": 3,
+    "hit_at_1_rate": 0.6,
+    "evidence_hit_at_3": 4,
+    "evidence_hit_at_3_rate": 0.8
+  },
+  "C_paragraph_filter:dev": {
+    "count": 15,
+    "hit_at_1": 12,
+    "hit_at_1_rate": 0.8,
+    "evidence_hit_at_3": 15,
+    "evidence_hit_at_3_rate": 1.0
+  },
+  "C_paragraph_filter:test": {
+    "count": 5,
+    "hit_at_1": 5,
+    "hit_at_1_rate": 1.0,
+    "evidence_hit_at_3": 5,
+    "evidence_hit_at_3_rate": 1.0
+  }
+}
